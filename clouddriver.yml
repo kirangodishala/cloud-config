@@ -1,7 +1,7 @@
 kubernetes:
   enabled: true
   accounts:
-  - name: k8s-1-changed
+  - name: k8s-1
     providerVersion: V2
     cacheThreads: 1
     namespaces:
@@ -13,7 +13,7 @@ kubernetes:
     - customResourceDefinition
     - role
     onlySpinnakerManaged: true
-  - name: k8s-2-changed
+  - name: k8s-2
     providerVersion: V2
     cacheThreads: 1
     namespaces:
