@@ -1,0 +1,27 @@
+kubernetes:
+  enabled: true
+  accounts:
+  - name: k8s-1
+    providerVersion: V2
+    cacheThreads: 1
+    namespaces:
+      - ns1
+      - ns2
+    omitKinds: 
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    onlySpinnakerManaged: true
+  - name: k8s-2
+    providerVersion: V2
+    cacheThreads: 1
+    namespaces:
+      - ns11
+      - ns12
+    omitKinds: 
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    onlySpinnakerManaged: true  
