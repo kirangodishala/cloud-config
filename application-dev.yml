@@ -1,0 +1,4 @@
+my:
+  app:
+    key1: myDevKey1
+    key2: myDevKey2
