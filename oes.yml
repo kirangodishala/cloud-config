@@ -3,3 +3,8 @@ spinnaker:
   username: opsmxmgr0
   password: opsmx
   adminLoginEnabled: false
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,refresh
