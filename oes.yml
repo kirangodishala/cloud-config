@@ -1,0 +1,5 @@
+spinnaker:
+  baseurl: http://localhost:8080
+  username: opsmxmgr0
+  password: opsmx
+  adminLoginEnabled: false
