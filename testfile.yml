@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/oes
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    # hibernate:
+     # ddl-auto: create
+
+spinnaker:
+  baseurl: http://52.255.164.169:8084
+#  base-url: http://35.237.198.105:8084
+  username: opsmxmgr1
+  password: opsmx@1234
+  adminLoginEnabled: false
+  adminUsername:
+  adminPassword:
+
+logging:
+  level:
+    com:
+      zaxxer:
+        hikari: DEBUG
