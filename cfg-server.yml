@@ -1,7 +1,3 @@
----
-spring:
-  profiles: caching-local
-
 kubernetes:
   enabled: true
   accounts:
@@ -40,13 +36,6 @@ kubernetes:
     oAuthScopes: []
     onlySpinnakerManaged: true
 
----
-spring:
-  profiles: caching-1-local
-
-kubernetes:
-  enabled: true
-  accounts:
   - name: k8s-acc-100
     requiredGroupMembership: []
     providerVersion: V2
@@ -82,13 +71,7 @@ kubernetes:
     oAuthScopes: []
     onlySpinnakerManaged: true
 
----
-spring:
-  profiles: caching-2-local
 
-kubernetes:
-  enabled: true
-  accounts:
   - name: k8s-acc-200
     requiredGroupMembership: []
     providerVersion: V2
