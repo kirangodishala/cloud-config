@@ -3,3 +3,7 @@ my:
     key1: '7bcbde19febc485e919f3465d2e873db6cd30667c7676d4416316f63e872bd7f'
     key2: myOrignalKey2
     key3: val3333333333
+k8s:
+  f1: v1
+  f2: v2
+  f3: v3
