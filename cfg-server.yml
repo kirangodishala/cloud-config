@@ -231,4 +231,96 @@ kubernetes:
     debug: false
     metrics: true
     checkPermissionsOnStartup: true
+  - name: k8s-acc-5
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
+  - name: k8s-acc-6
+    requiredGroupMembership: []
+    permissions:
+      READ:
+      - read1
+      - read2
+      - read3
+      - read4
+      WRITE:
+      - write1
+      - write2
+      - write3
+      - write4
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces:
+    - oes
+    - baseline-spinnaker
+    - spinnaker
+    - dev-spinnaker
+    - stg-spinnaker
+    - qa-spinnaker
+    - demo-spinnaker
+    omitNamespaces: []
+    kinds: []
+    omitKinds:
+    - clusterRoleBinding
+    - controllerRevision
+    - customResourceDefinition
+    - role
+    - roleBinding
+    - persistentVolume
+    - apiService
+    - validatingWebhookConfiguration
+    - podPreset
+    - mutatingWebhookConfiguration
+    - podSecurityPolicy
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /home/user/.kube/olddemo.config
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+    namingStrategy: kubernetesAnnotations
+    debug: false
+    metrics: true
+    checkPermissionsOnStartup: true
 
