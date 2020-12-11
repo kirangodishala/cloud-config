@@ -48,7 +48,7 @@ kubernetes:
     - podSecurityPolicy
     customResources: []
     cachingPolicies: []
-    kubeconfigFile: /Users/ramakiran/.kube/olddemo.config
+    kubeconfigFile: ${HOME}/.kube/olddemo.config
     kubeconfigContents: kubeconfigContents
     kubectlExecutable: kubectlExecutable
     oAuthScopes: []
